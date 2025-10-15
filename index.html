@@ -135,17 +135,21 @@
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            In this work, we introduce <strong>OmniDexGrasp</strong>, a unified framework that achieves <em>generalizable dexterous grasping</em> solely guided by <strong>grasp demonstrations</strong> generated from <em>foundation generative models</em>. Without relying on robot data or additional training, OmniDexGrasp realizes <strong>omni-ability</strong> in functional grasping—covering six representative tasks, including semantic grasping, region/point grasping, grasping in cluttered scenes, one-shot demonstration grasping, human–robot handover, and fragile object grasping—while supporting multi-modal inputs such as language, visual prompts, and demonstration images.
-          </p>
-          <p>
-            Unlike traditional methods that train a dedicated network to predict grasp poses, OmniDexGrasp leverages both a <strong>foundation generative model</strong> (e.g., GPT-Image) and a <strong>foundation visual model</strong> to synthesize human grasp images and convert them into executable dexterous robot actions. The framework integrates a <strong>human-image-to-robot-action</strong> transfer strategy that reconstructs and retargets generated human grasps to robot joint configurations, together with a <em>force-sensing adaptive grasping strategy</em> that ensures stable and reliable execution. Moreover, our framework is naturally extensible to manipulation tasks.
-          </p>
-          <p>
-            Extensive experiments in both simulation and real-world settings demonstrate that foundation models can provide precise and semantically aligned guidance for dexterous grasping, achieving an average <strong>87.9%</strong> success rate across six diverse tasks. As foundation models continue to advance, we envision future work extending OmniDexGrasp toward non-prehensile manipulation, further promoting the integration of foundation models into embodied intelligence.
-          </p>
+        <div class="abstract-panel">
+          <div class="abstract-trigger" style="cursor: pointer;">
+            <h2 class="title is-3">Abstract<span class="abstract-prompt"> (Click to expand)</span></h2>
+          </div>
+          <div class="content has-text-justified is-hidden" id="abstract-content">
+            <p>
+              In this work, we introduce <strong>OmniDexGrasp</strong>, a unified framework that achieves <em>generalizable dexterous grasping</em> solely guided by <strong>grasp demonstrations</strong> generated from <em>foundation generative models</em>. Without relying on robot data or additional training, OmniDexGrasp realizes <strong>omni-ability</strong> in functional grasping—covering six representative tasks, including semantic grasping, region/point grasping, grasping in cluttered scenes, one-shot demonstration grasping, human–robot handover, and fragile object grasping—while supporting multi-modal inputs such as language, visual prompts, and demonstration images.
+            </p>
+            <p>
+              Unlike traditional methods that train a dedicated network to predict grasp poses, OmniDexGrasp leverages both a <strong>foundation generative model</strong> (e.g., GPT-Image) and a <strong>foundation visual model</strong> to synthesize human grasp images and convert them into executable dexterous robot actions. The framework integrates a <strong>human-image-to-robot-action</strong> transfer strategy that reconstructs and retargets generated human grasps to robot joint configurations, together with a <em>force-sensing adaptive grasping strategy</em> that ensures stable and reliable execution. Moreover, our framework is naturally extensible to manipulation tasks.
+            </p>
+            <p>
+              Extensive experiments in both simulation and real-world settings demonstrate that foundation models can provide precise and semantically aligned guidance for dexterous grasping, achieving an average <strong>87.9%</strong> success rate across six diverse tasks. As foundation models continue to advance, we envision future work extending OmniDexGrasp toward non-prehensile manipulation, further promoting the integration of foundation models into embodied intelligence.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -282,14 +286,14 @@
           <!-- Videos 1 & 2 -->
           <div class="column is-half">
             <div class="content has-text-centered">
-              <video autoplay loop muted playsinline controls style="width: 100%;">
+              <video autoplay loop muted playsinline style="width: 100%;">
                 <source src="./ProPage网页素材/Semantic%20Grasp/Semantic%20Grasping.mp4" type="video/mp4">
               </video>
             </div>
           </div>
           <div class="column is-half">
             <div class="content has-text-centered">
-              <video autoplay loop muted playsinline controls style="width: 100%;">
+              <video autoplay loop muted playsinline style="width: 100%;">
                 <source src="./ProPage网页素材/Cluttered%20Scenes/Cluttered%20Scenes-1.mp4" type="video/mp4">
               </video>
             </div>
@@ -298,14 +302,14 @@
           <!-- Videos 3 & 4 -->
           <div class="column is-half">
             <div class="content has-text-centered">
-              <video autoplay loop muted playsinline controls style="width: 100%;">
+              <video autoplay loop muted playsinline style="width: 100%;">
                 <source src="./ProPage网页素材/Human-Robot%20Handover/Human-Robot%20Handover-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
           <div class="column is-half">
             <div class="content has-text-centered">
-              <video autoplay loop muted playsinline controls style="width: 100%;">
+              <video autoplay loop muted playsinline style="width: 100%;">
                 <source src="./ProPage网页素材/Fragile%20Object%20Grasping/Fragile%20Object%20Grasping-1.mp4" type="video/mp4">
               </video>
             </div>
@@ -314,14 +318,14 @@
           <!-- Videos 5 & 6 -->
           <div class="column is-half">
             <div class="content has-text-centered">
-              <video autoplay loop muted playsinline controls style="width: 100%;">
+              <video autoplay loop muted playsinline style="width: 100%;">
                 <source src="./ProPage网页素材/Cross-Embodiment/Cross-Embodiment-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
           <div class="column is-half">
             <div class="content has-text-centered">
-              <video autoplay loop muted playsinline controls style="width: 100%;">
+              <video autoplay loop muted playsinline style="width: 100%;">
                 <source src="./ProPage网页素材/Grasp%20under%20Complex%20Lighting/Grasp%20under%20Complex%20Lighting-1.mp4" type="video/mp4">
               </video>
             </div>
@@ -331,7 +335,7 @@
           <div class="column is-fullwidth">
             <div class="content has-text-centered is-flex is-justify-content-center">
               <div style="width: 50%;">
-                <video autoplay loop muted playsinline controls style="width: 100%;">
+                <video autoplay loop muted playsinline style="width: 100%;">
                   <source src="./ProPage网页素材/Extension%20to%20Manipulation/Extension%20to%20Manipulation-1.mp4" type="video/mp4">
                 </video>
               </div>

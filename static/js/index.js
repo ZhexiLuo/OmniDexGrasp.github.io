@@ -88,4 +88,15 @@ $(document).ready(function() {
     // Trigger change on load to show the first item if pre-selected (or none if default is selected)
     $('#vis-select').trigger('change');
 
+    // Abstract collapsible logic
+    $('.abstract-trigger').on('click', function() {
+      $('#abstract-content').toggleClass('is-hidden');
+      var $prompt = $('.abstract-prompt');
+      if ($prompt.text() === ' (Click to expand)') {
+        $prompt.text(' (Click to collapse)');
+      } else {
+        $prompt.text(' (Click to expand)');
+      }
+    });
+
 })

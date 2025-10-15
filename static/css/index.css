@@ -155,3 +155,32 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.omni {
+  color: #1A73E8; /* Deeper Google Blue */
+}
+.dex {
+  color: #F29900; /* Deeper Orange */
+}
+.grasp {
+  color: #1E8E3E; /* Deeper Green */
+}
+.omnidexgrasp {
+  font-weight: bold;
+}
+
+.hero .title.is-1.publication-title {
+  font-size: 2.25rem;
+}
+
+div.publication-authors + div.publication-authors {
+  font-size: 0.9375rem;
+  font-weight: bold;
+}
+
+.coming-soon {
+  color: #888888; /* Gray color */
+  font-weight: bold;
+  font-size: 0.9em;
+  vertical-align: middle; /* Align text vertically */
+}

@@ -75,4 +75,17 @@ $(document).ready(function() {
 
     bulmaSlider.attach();
 
+    // Visualization Demo Logic
+    $('#vis-select').on('change', function() {
+      var selectedValue = $(this).val();
+      if (selectedValue) {
+        // Hide all visualization items
+        $('#visualization-container > .columns').addClass('is-hidden');
+        // Show the selected one
+        $('#' + selectedValue).removeClass('is-hidden');
+      }
+    });
+    // Trigger change on load to show the first item if pre-selected (or none if default is selected)
+    $('#vis-select').trigger('change');
+
 })

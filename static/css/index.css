@@ -190,3 +190,15 @@ div.publication-authors + div.publication-authors {
   color: #888;
   font-weight: normal;
 }
+
+.abstract-arrow {
+  transition: transform 0.3s ease;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.8em;
+  margin-left: 0.5rem;
+}
+
+.abstract-trigger.is-expanded .abstract-arrow {
+  transform: rotate(180deg);
+}

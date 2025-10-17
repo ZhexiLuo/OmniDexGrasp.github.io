@@ -91,12 +91,7 @@ $(document).ready(function() {
     // Abstract collapsible logic
     $('.abstract-trigger').on('click', function() {
       $('#abstract-content').toggleClass('is-hidden');
-      var $prompt = $('.abstract-prompt');
-      if ($prompt.text() === ' (Click to expand)') {
-        $prompt.text(' (Click to collapse)');
-      } else {
-        $prompt.text(' (Click to expand)');
-      }
+      $(this).toggleClass('is-expanded');
     });
 
 })

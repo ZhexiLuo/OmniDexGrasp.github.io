@@ -211,70 +211,70 @@
           <!-- Item 1: Watering Can -->
           <div class="columns is-vcentered" id="watering-can">
             <div class="column">
-              <img src="./demo/Watering_can/gpt.png" alt="Generated grasp for Watering Can" loading="lazy"/>
+              <img data-src="./demo/Watering_can/gpt.png" alt="Generated grasp for Watering Can"/>
             </div>
             <div class="column">
-              <iframe src="./demo/Watering_can/scene_dexhand_manohand_visualization.html" width="100%" height="400px" style="border:0;" loading="lazy"></iframe>
+              <iframe data-src="./demo/Watering_can/scene_dexhand_manohand_visualization.html" width="100%" height="400px" style="border:0;"></iframe>
             </div>
           </div>
 
           <!-- Item 2: Spray Bottle -->
           <div class="columns is-vcentered is-hidden" id="spray-bottle">
             <div class="column">
-              <img src="./demo/Spray_Bottle/gpt.png" alt="Generated grasp for Spray Bottle" loading="lazy"/>
+              <img data-src="./demo/Spray_Bottle/gpt.png" alt="Generated grasp for Spray Bottle"/>
             </div>
             <div class="column">
-              <iframe src="./demo/Spray_Bottle/visualize/scene_dexhand_manohand_visualization.html" width="100%" height="400px" style="border:0;" loading="lazy"></iframe>
+              <iframe data-src="./demo/Spray_Bottle/visualize/scene_dexhand_manohand_visualization.html" width="100%" height="400px" style="border:0;"></iframe>
             </div>
           </div>
           
           <!-- Item 3: 3D Printed Object -->
           <div class="columns is-vcentered is-hidden" id="3d-printed-object">
             <div class="column">
-              <img src="./demo/3D_printed_object/gpt.png" alt="Generated grasp for 3D Printed Object" loading="lazy"/>
+              <img data-src="./demo/3D_printed_object/gpt.png" alt="Generated grasp for 3D Printed Object"/>
             </div>
             <div class="column">
-              <iframe src="./demo/3D_printed_object/visualize/scene_dexhand_manohand_visualization.html" width="100%" height="400px" style="border:0;" loading="lazy"></iframe>
+              <iframe data-src="./demo/3D_printed_object/visualize/scene_dexhand_manohand_visualization.html" width="100%" height="400px" style="border:0;"></iframe>
             </div>
           </div>
 
           <!-- Item 4: Electric Drill -->
           <div class="columns is-vcentered is-hidden" id="electric-drill">
             <div class="column">
-              <img src="./demo/Electric_Drill/gpt.png" alt="Generated grasp for Electric Drill" loading="lazy"/>
+              <img id="drill-img" data-src="./demo/Electric_Drill/gpt.png" alt="Generated grasp for Electric Drill"/>
             </div>
             <div class="column">
-              <iframe src="./demo/Electric_Drill/visualize/scene_dexhand_manohand_visualization.html" width="100%" height="400px" style="border:0;" loading="lazy"></iframe>
+              <iframe id="drill-iframe" data-src="./demo/Electric_Drill/visualize/scene_dexhand_manohand_visualization.html" width="100%" height="400px" style="border:0;"></iframe>
             </div>
           </div>
 
           <!-- Item 5: Thermos Bottle -->
           <div class="columns is-vcentered is-hidden" id="thermos-bottle">
             <div class="column">
-              <img src="./demo/Thermos_Bottle/gpt.png" alt="Generated grasp for Thermos Bottle" loading="lazy"/>
+              <img data-src="./demo/Thermos_Bottle/gpt.png" alt="Generated grasp for Thermos Bottle"/>
             </div>
             <div class="column">
-              <iframe src="./demo/Thermos_Bottle/visualize/scene_dexhand_manohand_visualization.html" width="100%" height="400px" style="border:0;" loading="lazy"></iframe>
+              <iframe data-src="./demo/Thermos_Bottle/visualize/scene_dexhand_manohand_visualization.html" width="100%" height="400px" style="border:0;"></iframe>
             </div>
           </div>
 
           <!-- Item 6: Mug -->
           <div class="columns is-vcentered is-hidden" id="mug">
             <div class="column">
-              <img src="./demo/Mug/gpt.png" alt="Generated grasp for Mug" loading="lazy"/>
+              <img data-src="./demo/Mug/gpt.png" alt="Generated grasp for Mug"/>
             </div>
             <div class="column">
-              <iframe src="./demo/Mug/visualize/scene_dexhand_manohand_visualization.html" width="100%" height="400px" style="border:0;" loading="lazy"></iframe>
+              <iframe data-src="./demo/Mug/visualize/scene_dexhand_manohand_visualization.html" width="100%" height="400px" style="border:0;"></iframe>
             </div>
           </div>
           
           <!-- Item 7: Mineral Water Bottle -->
           <div class="columns is-vcentered is-hidden" id="mineral-water-bottle">
             <div class="column">
-              <img src="./demo/Mineral_water_bottle/gpt.png" alt="Generated grasp for Mineral Water Bottle" loading="lazy"/>
+              <img data-src="./demo/Mineral_water_bottle/gpt.png" alt="Generated grasp for Mineral Water Bottle"/>
             </div>
             <div class="column">
-              <iframe src="./demo/Mineral_water_bottle/visualize/scene_dexhand_manohand_visualization.html" width="100%" height="400px" style="border:0;" loading="lazy"></iframe>
+              <iframe data-src="./demo/Mineral_water_bottle/visualize/scene_dexhand_manohand_visualization.html" width="100%" height="400px" style="border:0;"></iframe>
             </div>
           </div>
         </div>
@@ -291,15 +291,15 @@
           <!-- Videos 1 & 2 -->
           <div class="column is-half">
             <div class="content has-text-centered">
-              <video autoplay loop muted playsinline style="width: 100%;" preload="none">
-                <source src="./ProPage网页素材/Semantic%20Grasp/Semantic%20Grasping.mp4" type="video/mp4">
+              <video class="sequential-load" autoplay loop muted playsinline style="width: 100%;" preload="none">
+                <source data-src="./ProPage网页素材/Semantic%20Grasp/Semantic%20Grasping.mp4" type="video/mp4">
               </video>
             </div>
           </div>
           <div class="column is-half">
             <div class="content has-text-centered">
-              <video autoplay loop muted playsinline style="width: 100%;" preload="none">
-                <source src="./ProPage网页素材/Cluttered%20Scenes/Cluttered%20Scenes-1.mp4" type="video/mp4">
+              <video class="sequential-load" autoplay loop muted playsinline style="width: 100%;" preload="none">
+                <source data-src="./ProPage网页素材/Cluttered%20Scenes/Cluttered%20Scenes-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -307,15 +307,15 @@
           <!-- Videos 3 & 4 -->
           <div class="column is-half">
             <div class="content has-text-centered">
-              <video autoplay loop muted playsinline style="width: 100%;" preload="none">
-                <source src="./ProPage网页素材/Human-Robot%20Handover/Human-Robot%20Handover-1.mp4" type="video/mp4">
+              <video class="sequential-load" autoplay loop muted playsinline style="width: 100%;" preload="none">
+                <source data-src="./ProPage网页素材/Human-Robot%20Handover/Human-Robot%20Handover-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
           <div class="column is-half">
             <div class="content has-text-centered">
-              <video autoplay loop muted playsinline style="width: 100%;" preload="none">
-                <source src="./ProPage网页素材/Fragile%20Object%20Grasping/Fragile%20Object%20Grasping-1.mp4" type="video/mp4">
+              <video class="sequential-load" autoplay loop muted playsinline style="width: 100%;" preload="none">
+                <source data-src="./ProPage网页素材/Fragile%20Object%20Grasping/Fragile%20Object%20Grasping-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -323,15 +323,15 @@
           <!-- Videos 5 & 6 -->
           <div class="column is-half">
             <div class="content has-text-centered">
-              <video autoplay loop muted playsinline style="width: 100%;" preload="none">
-                <source src="./ProPage网页素材/Cross-Embodiment/Cross-Embodiment-1.mp4" type="video/mp4">
+              <video class="sequential-load" autoplay loop muted playsinline style="width: 100%;" preload="none">
+                <source data-src="./ProPage网页素材/Cross-Embodiment/Cross-Embodiment-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
           <div class="column is-half">
             <div class="content has-text-centered">
-              <video autoplay loop muted playsinline style="width: 100%;" preload="none">
-                <source src="./ProPage网页素材/Grasp%20under%20Complex%20Lighting/Grasp%20under%20Complex%20Lighting-1.mp4" type="video/mp4">
+              <video class="sequential-load" autoplay loop muted playsinline style="width: 100%;" preload="none">
+                <source data-src="./ProPage网页素材/Grasp%20under%20Complex%20Lighting/Grasp%20under%20Complex%20Lighting-1.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -340,8 +340,8 @@
           <div class="column is-fullwidth">
             <div class="content has-text-centered is-flex is-justify-content-center">
               <div style="width: 50%;">
-                <video autoplay loop muted playsinline style="width: 100%;" preload="none">
-                  <source src="./ProPage网页素材/Extension%20to%20Manipulation/Extension%20to%20Manipulation-1.mp4" type="video/mp4">
+                <video class="sequential-load" autoplay loop muted playsinline style="width: 100%;" preload="none">
+                  <source data-src="./ProPage网页素材/Extension%20to%20Manipulation/Extension%20to%20Manipulation-1.mp4" type="video/mp4">
                 </video>
               </div>
             </div>
@@ -374,6 +374,101 @@
     </div>
   </div>
 </footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    
+    // --- Priority 4: Load remaining visualizations ---
+    const loadOtherVisualizations = () => {
+      const visualizationContainer = document.getElementById('visualization-container');
+      // Select all lazy elements that are NOT the drill ones
+      const lazyElements = Array.from(visualizationContainer.querySelectorAll('[data-src]:not(#drill-img):not(#drill-iframe)'));
+      
+      lazyElements.forEach(element => {
+        element.setAttribute('src', element.getAttribute('data-src'));
+        element.removeAttribute('data-src');
+      });
+    };
+
+    // --- Priority 3: Load Drill Visualization ---
+    const loadDrillVisualization = () => {
+      const drillImg = document.getElementById('drill-img');
+      const drillIframe = document.getElementById('drill-iframe');
+
+      if (!drillImg || !drillIframe) {
+        // Fallback in case elements are not found
+        loadOtherVisualizations();
+        return;
+      }
+
+      const imgPromise = new Promise(resolve => {
+        drillImg.onload = resolve;
+        drillImg.onerror = resolve; // Resolve on error too so it doesn't block the chain
+        drillImg.setAttribute('src', drillImg.getAttribute('data-src'));
+      });
+
+      const iframePromise = new Promise(resolve => {
+        drillIframe.onload = resolve;
+        drillIframe.onerror = resolve;
+        drillIframe.setAttribute('src', drillIframe.getAttribute('data-src'));
+      });
+      
+      // After drill assets are loaded, load the rest
+      Promise.all([imgPromise, iframePromise]).then(loadOtherVisualizations);
+    };
+    
+    // --- Priority 2: Sequentially load demo videos ---
+    const videos = Array.from(document.querySelectorAll('.sequential-load'));
+    const loadVideo = (index) => {
+      if (index >= videos.length) {
+        // This case handles if there are no videos.
+        // If there were videos, the chain is continued inside the 'canplay' listener.
+        loadDrillVisualization();
+        return;
+      }
+      
+      const video = videos[index];
+      const source = video.querySelector('source');
+      const dataSrc = source.getAttribute('data-src');
+      
+      if (dataSrc) {
+        source.setAttribute('src', dataSrc);
+        video.load();
+        
+        // Define the next step in the chain
+        const nextStep = () => {
+          if (index === videos.length - 1) {
+            // If this is the last video, start loading the drill visualization
+            loadDrillVisualization();
+          } else {
+            // Otherwise, load the next video
+            loadVideo(index + 1);
+          }
+        };
+
+        video.addEventListener('canplay', nextStep, { once: true });
+        // Add an error listener as a fallback
+        video.addEventListener('error', nextStep, { once: true });
+
+      } else {
+        // If a video has no data-src, just move to the next one
+        if (index === videos.length - 1) {
+          loadDrillVisualization();
+        } else {
+          loadVideo(index + 1);
+        }
+      }
+    };
+    
+    // Start the loading chain
+    if (videos.length > 0) {
+      loadVideo(0);
+    } else {
+      // If there are no videos to load, go straight to drill
+      loadDrillVisualization();
+    }
+  });
+</script>
 
 </body>
 </html>
